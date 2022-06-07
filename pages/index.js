@@ -6,7 +6,7 @@ import { abi, RANDOM_GAME_NFT_CONTRACT_ADDRESS } from "../constants";
 import { FETCH_CREATED_GAME } from "../queries";
 import styles from "../styles/Home.module.css";
 import { subgraphQuery } from "../utils";
-
+//
 export default function Home() {
   const zero = BigNumber.from("0");
   // walletConnected keep track of whether the user's wallet is connected or not
